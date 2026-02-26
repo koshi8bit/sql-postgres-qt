@@ -26,9 +26,9 @@ https://www.msys2.org
 C:\msys64\
 ```
 
----
+<details>
+<summary>Возможно выполнить это (я не делал)</summary>
 
-Возможно выполнить это (я не делал)
 ```
 pacman -Syu
 ```
@@ -42,8 +42,9 @@ pacman -Syu
 
 Обновление должно завершиться полностью.
 
----
+</details>
 
+Качаем бинарники
 ```
 pacman -S mingw-w64-x86_64-postgresql
 ```
