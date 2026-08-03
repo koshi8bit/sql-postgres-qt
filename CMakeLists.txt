@@ -5,6 +5,7 @@ cmake_minimum_required(VERSION 3.16)
 project(sqlbrowser LANGUAGES CXX)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
+set(CMAKE_OBJECT_PATH_MAX 270)
 set(QT_DEBUG_PLUGINS 1)
 
 find_package(Qt6 REQUIRED COMPONENTS Core Gui Sql Widgets)
