@@ -16,7 +16,7 @@ dll Postgres можно скачать с офф сайта, но он ском�
 ### Скомпилить из сорцов (сложно)
 
 Ну тут я хз, ёбс 2 дня, не победил.
-Толкового мануала не нашел, кроме как [этот](https://youtu.be/3CnAxGgvEmo?si=tbso9vaQtKcAkloq). Но там через `qmake`, а я использую 6.10.1
+Толкового мануала не нашел, кроме как [этот](https://youtu.be/3CnAxGgvEmo?si=tbso9vaQtKcAkloq). Но там через `qmake`, а я использую CMake 6.10.1
 
 ### MSYS2 (изи)
 https://www.msys2.org
@@ -26,9 +26,9 @@ https://www.msys2.org
 C:\msys64\
 ```
 
----
+<details>
+<summary>Возможно выполнить это (я не делал)</summary>
 
-Возможно выполнить это (я не делал)
 ```
 pacman -Syu
 ```
@@ -42,8 +42,9 @@ pacman -Syu
 
 Обновление должно завершиться полностью.
 
----
+</details>
 
+Качаем бинарники. Запустить `C:\msys64\msys2.exe`
 ```
 pacman -S mingw-w64-x86_64-postgresql
 ```
